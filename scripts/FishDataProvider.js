@@ -1,6 +1,6 @@
 const fishCollection = [
     {
-        image: `https://m.liveaquaria.com/images/categories/large/lg80188OcellarisClownfish.jpg`
+        image: `https://m.liveaquaria.com/images/categories/large/lg80188OcellarisClownfish.jpg`,
         name: "Bozo",
         species: "Amiphiprioninae",
         length: 4.3,
