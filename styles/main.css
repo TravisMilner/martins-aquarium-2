@@ -18,22 +18,100 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
-h1 {
-	text-align: center;
+body {
+    margin:0
 }
 
+
+
+
 img {
-	width: 50px;
+    width: 80px;
+    margin: auto;
 }
 
 .contentContainer {
-	display: flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+/* section, article, aside {
+    border: 2px dotted black;
+} */
+
 .contentContainer__left {
-	flex: 3;
+    flex: 3;
+    flex-wrap: wrap;
 }
 
 .contentContainer__right {
-	flex: 1;
+    flex: 1;
+    flex-wrap: wrap;
+}
+ 
+
+header {
+    background: beige;
+    height: 100px;
+    margin: 0;
+    text-align: center;
+    padding-top: 2em;
+    font-family: cursive;
+}
+
+.fishList {
+    margin: 0;
+    background: aquamarine;
+    text-align: center;
+    width: 70em;
+    border: 2px dotted black;
+}
+
+.travel__quotes {
+    margin: 0;
+    background: burlywood;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+} 
+
+.fish {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-top: 2px dotted black;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20em;
+}
+
+.contentContainer__right {
+    background-color: coral;
+}
+.travel__quotes {
+    display
+}
+
+ul {
+    line-height: 2em;
+    margin-top: 200px;
+    line-height: 2em;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.travel__locations {
+    background: beige;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px
 }
