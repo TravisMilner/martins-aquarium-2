@@ -7,14 +7,14 @@ export const TipList = () => {
 
     let htmlRep = ""
 
-    for (const tiP of tips) {
-        htmlRep += Tips(tiP)
+    for (const tip of tips) {
+        htmlRep += Tips(tip)
     }
 
     contentElement.innerHTML += `
-        <p>${htmlRep}</p>
-        <p>This is test</p>
+        ${htmlRep}
+        
         `
-      console.log(htmlRep)
+     
 }
 

@@ -2,6 +2,9 @@ import { useFish } from "./FishDataProvider.js"
 import { FishList} from "./FishList.js"
 import { useTips } from "./TipsDataProvider.js"
 import { TipList } from "./TipList.js"
+import { useLocation } from "./LocationDataProvider.js"
+
+const allTheLocations = useLocation()
 const allTheFish = useFish()
 const allTheTips = useTips()
 
@@ -12,8 +15,11 @@ for (const tips of allTheTips) {
     console.log(tips);
 }
 
-
+for (const location of allTheLocations) {
+    console.log(location)
+}
 
 FishList();
 useTips();
 TipList();
+useLocation();
