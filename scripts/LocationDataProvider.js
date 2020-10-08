@@ -1,4 +1,4 @@
-const location = [
+const location2 = [
     {
         name: "Australia",
         person: "Cate Blanchett",
@@ -17,5 +17,5 @@ const location = [
 ]
 
 export const useLocation = () => {
-    return location.slice();
+    return location2.slice();
 }

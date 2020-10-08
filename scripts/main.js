@@ -3,6 +3,7 @@ import { FishList} from "./FishList.js"
 import { useTips } from "./TipsDataProvider.js"
 import { TipList } from "./TipList.js"
 import { useLocation } from "./LocationDataProvider.js"
+import { LocationList} from "./LocationList.js"
 
 const allTheLocations = useLocation()
 const allTheFish = useFish()
@@ -23,3 +24,4 @@ FishList();
 useTips();
 TipList();
 useLocation();
+LocationList()
