@@ -115,3 +115,8 @@ ul {
     justify-content: space-around;
     margin: 20px
 }
+
+.loc{
+    display: flex;
+    justify-content: space-evenly;
+}
